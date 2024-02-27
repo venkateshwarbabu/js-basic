@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>day name</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var  d=prompt("enter date")
+		var month=prompt("enter month")
+		var year=prompt("enter year")
+		var mydates = new Date(year,month,d)
+		var dayname=['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
+		const x = dayname[mydates.getDay()]
+		document.writeln(x)
+	</script>
+
+</body>
+</html>
